@@ -1,41 +1,64 @@
-<footer>
-  <div class="container-md beautiful-jekyll-footer">
-    <div class="row">
-      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-      {% include social-networks-links.html %}
-      {% if page.footer-extra %}
-        <div class="footer-custom-content">
-          {% for file in page.footer-extra %}
-            {% include {{ file }} %}
-          {% endfor %}
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1 social-links">
+        <h4>CONTACT</h4>
+
+        {% for contact in site.footer.contact %}
+
+          {% assign contact_icon_path = "/assets/img/icons/" | append: contact.name | downcase | append: ".png" | absolute_url %}
+          <img
+            src="{{ contact_icon_path }}"
+            alt="{{ contact.name | downcase }}"
+          />
+          <a href="{{ contact.link }}" id="{{ contact.name | downcase }}-link">
+            {% if contact.value and contact.value != "" and contact.value != nil %}
+              {{ contact.value }}
+            {% else %}
+              {{ contact.name }}
+            {% endif %}
+          </a>
+          <br />
+
+        {% endfor %}
+      </div>
+
+      <div class="footer-col footer-col-2 social-links">
+        <h4>FOLLOW</h4>
+
+        {% for follow in site.footer.follow %}
+          <span class="wrap-link">
+
+            {% assign follow_icon_path = "/assets/img/icons/" | append: follow.name | downcase | append: ".png" | absolute_url %}
+            <img
+              src="{{ follow_icon_path }}"
+              alt="{{ follow.name | downcase }}"
+            />
+            <a href="{{ follow.link }}">
+              {% if follow.value and follow.value != "" and follow.value != nil %}
+                {{ follow.value }}
+              {% else %}
+                {{ follow.name }}
+              {% endif %}
+            </a>
+          </span>
+
+          {% assign mod = forloop.index | modulo: 2 %} {% if mod == 0 %}
+            <br />
+          {% endif %}
+
+        {% endfor %}
+      </div>
+
+      {% if site.footer.show_powered_by == true %}
+        <div class="footer-col footer-col-3 powered-by">
+          <p>
+            powered by <a href="https://github.com/eliottvincent/bay">Bay</a> | {{ 'now' | date: "%Y" }}
+          </p>
         </div>
       {% endif %}
-      <p class="copyright text-muted">
-      {% if site.author %}
-        {{ site.author }}
-        &nbsp;&bull;&nbsp;
-      {% endif %}
-      {{ site.time | date: '%Y' }}
-
-      {% if site.url-pretty %}
-        &nbsp;&bull;&nbsp;
-        <span class="author-site">
-          <a href="{% if site.url-canonical %}{{ site.url-canonical }}{% else %}{{ '' | absolute_url }}{% endif %}">{{ site.url-pretty }}</a>
-        </span>
-      {% endif %}
-
-      {% if site.matomo %}
-        {% if site.matomo.opt-out %}
-          &nbsp;&bull;&nbsp;
-          <a href="http://{{- site.matomo.uri -}}/index.php?module=CoreAdminHome&action=optOut" target="_blank" class="text_muted">Do-not-Track</a>
-        {% endif %}
-      {% endif%}
-      </p>
-      {% unless site.remove-ads %}<p class="theme-by text-muted">
-        Powered by
-        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
-      </p>{% endunless %}
-      </div>
     </div>
   </div>
 </footer>
+
+{% include wechat-widget.html %}
