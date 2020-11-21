@@ -5,6 +5,12 @@
 
 # --- Required options --- #
 
+# If you are building a GitHub project page then use these settings:
+
+
+url: "https://rob-mccormack.github.io/scc"
+baseurl: "/ssc"
+
 # Name of website
 title: Siri Shortcuts Consulting 
 
