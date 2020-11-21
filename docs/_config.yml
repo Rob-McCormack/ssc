@@ -43,6 +43,7 @@ footer:
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 sass:
     style: :compressed
 plugins:
