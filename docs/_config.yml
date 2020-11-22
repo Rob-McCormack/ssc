@@ -24,9 +24,9 @@ footer:
     - name: Email
       value: rob.a.mccormack@gmail.com
       link: mailto:rob.a.mccormack@gmail.com
-    - name: WeChat
-      value: YourWeChatUsername
-      link: "#"
+#    - name: WeChat
+#      value: YourWeChatUsername
+#      link: "#"
   follow:
     - name: Twitter
       link: http://twitter.com/YourTwitterUsername
@@ -37,10 +37,10 @@ footer:
       link: http://linkedin.com/in/mrmccormack
     - name: GitHub
       link: http://github.com/rob-mccormack
-    - name: Weibo
-      link: http://weibo.com/u/YourWeiboUsername
-    - name: RSS
-      link: /feed.xml
+#    - name: Weibo
+#      link: http://weibo.com/u/YourWeiboUsername
+#    - name: RSS
+#      link: /feed.xml
 
 # Build settings
 markdown: kramdown
