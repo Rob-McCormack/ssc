@@ -6,9 +6,19 @@ profile_picture:
 ---
 
 <p>
-  Welcome! This site serves as an example for the Bay Jekyll theme. Bay is a very simple and minimal theme, directly inspired by Dan Grover's <a href="http://dangrover.com">website</a>.
+  
+  SSC specializes in creating Shortcuts and go far beyond 
+    automating repetitive things you do on your iPhone or iPad.
+   
+   
+    
+  
 </p>
 
+
 <p>
-  You can find the source code and the instructions on <a href="https://github.com/eliottvincent/bay">GitHub</a>.
+What are Siri Shortcuts? 
+<br />
+Effectively, it distills a complex task that ordinarily requires a giant amount of steps down into a single action. It’s Apple’s version of third-party apps like IFTTT (If This, Then That), and while it doesn’t come standard on iPhones with iOS 12, it will become de rigueur after you download it, for free, from the app store. Once you have it, you record custom phrases, which kick off a pre-programmed sequence of automated inputs across one or more apps.
 </p>
+

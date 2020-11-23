@@ -14,7 +14,9 @@ header:
   pages:
     - name: Home
       slug: /
-      
+    - name: Work
+    - name: Blog
+    - name: Policy
 
 footer:
   show_powered_by: true
@@ -26,6 +28,11 @@ footer:
 #      value: YourWeChatUsername
 #      link: "#"
   follow:
+    - name: Twitter
+      link: http://twitter.com/YourTwitterUsername
+      username: "@YourTwitterUsername"
+    - name: Facebook
+      link: http://facebook.com/YourFacebookUsername
     - name: LinkedIn
       link: http://linkedin.com/in/mrmccormack
     - name: GitHub
