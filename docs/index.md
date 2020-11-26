@@ -5,9 +5,8 @@ profile_picture:
   alt: Siri Shortcuts
 ---
 
-<p>
-  
-SSC specializes in creating Shortcuts which go far beyond automating repetitive on your iPhone or iPad. We call theses **"Shortcut Applications"*. 
+## Welcome
+SSC specializes in creating Shortcuts which go far beyond automating repetitive on your iPhone or iPad. We call theses **"Shortcut Applications"**. 
 
     
 These Shortcut Applications have many advantages:
@@ -19,14 +18,8 @@ These Shortcut Applications have many advantages:
 - affordable for even the smallest of businesses
 
 
-
-</p>
-
-
-<p>
-
 What are Siri Shortcuts? 
-<br />
+
 Effectively, they distill a complex task that ordinarily requires a giant amount of steps down into a single action. It’s Apple’s version of third-party apps like IFTTT (If This, Then That). It comes standard on iPhones with iOS 13 or higher.
-</p>
+
 
