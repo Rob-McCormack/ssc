@@ -12,8 +12,8 @@ SSC specializes in creating Shortcuts which go far beyond automating repetitive 
 These Shortcut Applications have many advantages:
 - development time is drastically reduced
 - easy to share and update
-- custom installations are builtin
-- Siri voice control builtin
+- custom installations are built-in
+- Siri voice control built_in
 - dependable even for critical applications
 - affordable for even the smallest of businesses
 
