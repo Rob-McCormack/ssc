@@ -6,7 +6,7 @@ profile_picture:
 ---
 
 ## Welcome
-SSC specializes in creating Shortcuts which go far beyond automating repetitive on your iPhone or iPad. We call theses **"Shortcut Applications"**. 
+SSC specializes in creating Siri Shortcuts which go far beyond automating repetitive on your iPhone or iPad. We call theses **"Shortcut Applications"**. 
 
     
 These Shortcut Applications have many advantages:
