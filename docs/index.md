@@ -20,6 +20,8 @@ These Shortcut Applications have many advantages:
 
 ### What are Siri Shortcuts? 
 
-Effectively, they distill a complex task that ordinarily requires a giant amount of steps down into a single action. It’s Apple’s version of third-party apps like IFTTT (If This, Then That). It comes standard on iPhones with iOS 13 or higher.
+The Shortcut App comes standard on iPhones with iOS 13 or higher.
+
+Effectively, they distill a complex task that ordinarily requires a giant amount of steps down into a single action. 
 
 
